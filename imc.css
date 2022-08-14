@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+h1 {
+    color: red;
+    font-family: 'Uchen', serif;
+}
+p label{
+    font-family: 'Mouse Memoirs', sans-serif;
+}
+p input {
+    background-color: rgb(101, 158, 158);
+    font: arial, serif;
+    color: white;
+}
+button {
+    background-color: bisque;
+    width: 200px;
+}
+
+span {
+    color: rgba(124, 2, 39, 0.842);
+    font-weight: 700;
+    border-bottom: 2px solid black;
+}
